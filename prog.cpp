@@ -24,7 +24,7 @@ do{
                  "\n Opcion Elegida: ");
 	_fpurge(stdin);
 	scanf(" %i", &opcion);
-}while(opcion<1 || opcion>salir + 1);
+}while(opcion<1 || opcion > salir + 1);
 	titulo();
 	return (enum TipoOpcion) (opcion - 1);
 }
